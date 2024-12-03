@@ -2,6 +2,10 @@
 ## Overview
 This project demonstrates a real-time Change Data Capture (CDC) system using Debezium, Kafka, and PostgreSQL, hosted in a Docker environment. It captures database changes and streams them to Kafka topics, enabling real-time processing and analytics.
 
+## Architecture diagram
+<img width="485" alt="cdc_streaming_arch" src="https://github.com/user-attachments/assets/391e0bf0-6f26-4b20-8d34-1da71020b963">
+
+
 ## Features
 - Captures inserts, updates, and deletes from a PostgreSQL database.
 - Streams database changes to Kafka brokers using Debezium.
